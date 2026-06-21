@@ -1,16 +1,31 @@
-# React + Vite
+# Create a proper README
+echo "# Echo Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time chat application built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- Real-time messaging
+- Clean UI with Tailwind CSS
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Tailwind CSS
+- gemini Api
 
-## React Compiler
+## Installation
+\`\`\`bash
+npm install
+npm run dev
+\`\`\`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Environment Variables
+Create a .env file and add:
+\`\`\`
+VITE_API_KEY=your_api_key_here
+\`\`\`
+" > README.md
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git add README.md
+git commit -m "Add comprehensive README"
+git push
